@@ -1,6 +1,8 @@
 const ReactDOM = require('react-dom')
 const React = require('react')
-const Immutable = window.require('immutable')
+const Immutable = require('immutable')
+const fs = require('fs')
+const fse = window.require('fs-extra')
 
 window.React = React
 
