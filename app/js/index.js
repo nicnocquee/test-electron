@@ -1,6 +1,6 @@
 const ReactDOM = require('react-dom')
 const React = require('react')
-const Git = window.require('nodegit')
+const Git = require('nodegit')
 
 window.React = React
 
