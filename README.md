@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jolteon
 ![jolteon](http://cdn.bulbagarden.net/upload/c/c1/Spr_5b_135.png)
 
@@ -48,3 +49,23 @@ gulp serve
 - Package the app for release: `gulp package`.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+=======
+Get started:
+
+    git clone https://github.com/nicnocquee/test-electron
+    npm install
+
+To package:
+
+    gulp package-osx
+
+If double click on the created app, `release/jolteon.app`, there will be error
+
+    Uncaught error: Cannot find module 'fs-extra'
+
+But if we go inside `release/jolteon.app` via `Show Package Content`, then go to `/release/jolteon.app/Contents/Resources/app`, then run `electron .`, everything works fine.
+
+If run via `gulp serve`, also fine.
+
+Confused.
+>>>>>>> 4e20ca040625c71fa77f81317e6e631b283a42be
